@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'HTMLParser-2.0-SNAPSHOT'" />
-    <option name="defaultScopeName" value="Project 'HTMLParser-2.0-SNAPSHOT'" />
-    <option name="SEARCH_SCOPE" value="Project 'HTMLParser-2.0-SNAPSHOT'" />
+    <option name="customScope" value="File '[htmlparser] - ...\parser\src\main\java\org\htmlparser\util\ParserUtils.java'" />
+    <option name="defaultScopeName" value="File '[htmlparser] - ...\parser\src\main\java\org\htmlparser\util\ParserUtils.java'" />
+    <option name="SEARCH_SCOPE" value="File '[htmlparser] - ...\parser\src\main\java\org\htmlparser\util\ParserUtils.java'" />
   </component>
 </application>
