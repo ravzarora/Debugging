@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="PMD" description="PMD" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$JDKPath$\bin\java.exe" />
-      <option name="PARAMETERS" value="-cp %CLASSPATH%;-cp &quot;C:\Users\ravdeep\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\ravdeep\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\ravdeep\.m2\repository\net\sourceforge\pmd\pmd-core\5.3.2\pmd-core-5.3.2.jar;C:\Users\ravdeep\.m2\repository\net\sourceforge\pmd\pmd-java\5.3.2\pmd-java-5.3.2.jar;C:\Users\ravdeep\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\ravdeep\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar;C:\Users\ravdeep\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar&quot; net.sourceforge.pmd.PMD -R &quot;$ModuleFileDir$\src\test\resources\custom-pmd-rules.xml&quot; -d &quot;$FileDirRelativeToProjectRoot$/$FileName$&quot; c:\pmd\lib\asm-5.0.4.jar;c:\pmd\lib\jaxen-1.1.6.jar net.sourceforge.pmd.PMD &quot;$FilePath$&quot; ideaj unusedcode,imports &quot;$Sourcepath$&quot; $FileClass$.method $FileName$" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
-    </exec>
-  </tool>
-</toolSet>
